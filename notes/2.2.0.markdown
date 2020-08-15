@@ -1,0 +1,14 @@
+# Release 2.2.0
+
+## New Features
+
+* Do not process Java-only projects, add setting `isJavaOnly` (@metasim)
+* Update Maven support up to 3.5.2, update wagon support to 2.12 (@blast-hardcheese)
+* Extend support for Maven artifact classifiers and tags (@gemelen)
+
+## Maintenance
+
+* Add `sbt-dependency-graph` for internal usage (@blast-hardcheese)
+* Update dependencies and fix transport issues (@blast-hardcheese)
+* Upgrade to SBT 1.1.5 (@sullis)
+* Move Travis build from JDK6 due obsolescence (@gemelen)
